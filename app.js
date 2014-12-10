@@ -1,4 +1,5 @@
 console.log('Linked.');
+
 var $body = $('body');
 var $entries  = $('#entries');
 var $list   = $('#list');
@@ -9,8 +10,22 @@ $('#entry-text').text("Add Item To Wishlist");
 $entries.append($('<input type="text" placeholder="item name." id="item-name">'));
 $entries.append($('<input type="text" placeholder="item description." id="item-description">'));
 $entries.append($('<input type="text" placeholder="link to item." id="item-link">'));
+$entries.append($('<input type="submit" id="add" value="add.">'));
 
 
+
+
+
+
+
+
+
+$('#add').click( function() {
+   var Description = $('#description').val();
+   if($("#item-name").val() === '') {
+    $('#alert').html("<strong>Warning!</strong> You need to have an item-name!");
+  }
+});
 
 
 
