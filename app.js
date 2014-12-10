@@ -8,15 +8,15 @@ console.log('Linked.');
 // });
 // })();
 
-$.ajax({
-      type: "GET",
-      url:"https://openapi.etsy.com/v2/listings/active.js?callback=getData&api_key={insert api key here}",
-      dataType: "jsonp",
-      jsonpCallback: 'getData',
-      contentType: "application/json",
-    }).done(function(json) {
-      console.log(json);
-    });
+// $.ajax({
+//       type: "GET",
+//       url:"https://openapi.etsy.com/v2/listings/active.js?callback=getData&api_key={insert api key here}",
+//       dataType: "jsonp",
+//       jsonpCallback: 'getData',
+//       contentType: "application/json",
+//     }).done(function(json) {
+//       console.log(json);
+//     });
 
 
 
