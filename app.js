@@ -1,4 +1,20 @@
 console.log('Linked.');
+var $body = $('body');
+var $entries  = $('#entries');
+var $list   = $('#list');
+var $mailTo = $('#mail-to');
+
+$entries.append($('<p id="entry-text">'));
+$('#entry-text').text("Add Item To Wishlist");
+$entries.append($('<input type="text" placeholder="item name." id="item-name">'));
+$entries.append($('<input type="text" placeholder="item description." id="item-description">'));
+$entries.append($('<input type="text" placeholder="link to item." id="item-link">'));
+
+
+
+
+
+
 
 // (function(){
 // var app = angular.module('list', [ ]);
