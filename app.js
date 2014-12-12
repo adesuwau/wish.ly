@@ -1,9 +1,9 @@
 console.log('Linked.');
 
-var $body = $('body');
+var $body     = $('body');
 var $entries  = $('#entries');
-var $list   = $('#list');
-var $mailTo = $('#mail-to');
+var $list     = $('#list');
+var $mailTo   = $('#mail-to');
 
 $entries.append($('<p id="entry-text">'));
 $('#entry-text').text("Add Item To Wishlist");
@@ -12,7 +12,8 @@ $entries.append($('<input type="text" placeholder="item description." id="item-d
 $entries.append($('<input type="text" placeholder="link to item." id="item-link">'));
 $entries.append($('<input type="submit" id="add" value="add.">'));
 
-
+$mailTo.append($('<p id="mail-text">'));
+$('#mail-text').text("Send Your Wish List To A Loved One!");
 
 
 
