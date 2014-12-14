@@ -1,12 +1,23 @@
+body{
+  background-image: url("../assets/images/background3.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
 h1{
   text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  color: white;
 }
 
 p{
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 #entries{
-  border: solid black 1px;
+  background-color: white;
+  border: solid #FA0101 1px;
   border-radius: 10px;
   height: 75px;
   width: 50%;
@@ -14,7 +25,8 @@ p{
 }
 
 #list{
-  border: solid black 1px;
+  background-color: white;
+  border: solid #FA0101 1px;
   border-radius: 10px;
   height: 300px;
   width: 50%;
@@ -22,7 +34,8 @@ p{
 }
 
 #mail-to{
-  border: solid black 1px;
+  background-color: white;
+  border: solid #FA0101 1px;
   border-radius: 10px;
   height: 75px;
   width: 50%;
@@ -31,4 +44,8 @@ p{
 
 input{
   text-align: center;
+}
+
+#item-name{
+  margin-left: 155px;
 }

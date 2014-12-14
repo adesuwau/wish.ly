@@ -4,6 +4,7 @@ var $body     = $('body');
 var $entries  = $('#entries');
 var $list     = $('#list');
 var $mailTo   = $('#mail-to');
+var $form     = $('#form');
 
 $entries.append($('<p id="entry-text">'));
 $('#entry-text').text("Add Item To Wishlist");
@@ -26,6 +27,7 @@ $('#add').click( function() {
    if($("#item-name").val() === '') {
     $('#alert').html("<strong>Warning!</strong> You need to have an item-name!");
   }
+  else(    $list.append($("#item-name").val()) && + " " + $list.append($("#item-description").val()) && $list.append($("#item-link").val())    );
 });
 
 
