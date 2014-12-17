@@ -23,7 +23,6 @@ $('#mail-text').text("Send Your Wish List To A Loved One!");
 
 
 $('#add').click( function() {
-   var Description = $('#description').val();
    if($("#item-name").val() === '') {
     $('#alert').html("<strong>Warning!</strong> You need to have an item-name!");
   }
