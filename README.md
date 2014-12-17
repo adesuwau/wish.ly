@@ -1,4 +1,4 @@
 wish.ly
 =======
 
-Holiday Wishlist App
+Holiday Wishlist Application
