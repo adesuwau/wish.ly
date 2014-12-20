@@ -24,9 +24,9 @@ $('#mail-text').text("Send Your Wish List To A Loved One!");
 
 $('#add').click( function() {
    if($("#item-name").val() === '') {
-    $('#alert').html("<strong>Warning!</strong> You need to have an item-name!");
+    $('#alert').html("<strong>Warning!</strong> You need to have an item name!");
   }
-  else(    $list.append($("#item-name").val()) + " " + $list.append($("#item-description").val()) + " " + $list.append($("#item-link").val())    );
+  else(    $list.append($("#item-name").val()) + "  " + $list.append($("#item-description").val()) + "  " + $list.append($("#item-link").val())    );
 });
 
 
