@@ -13,9 +13,10 @@ $entries.append($('<input type="text" placeholder="item description." id="item-d
 $entries.append($('<input type="text" placeholder="link to item." id="item-link">'));
 $entries.append($('<input type="submit" id="add" value="add.">'));
 
+$list.append($('<ul id="wishlist">'));
+
 $mailTo.append($('<p id="mail-text">'));
 $('#mail-text').text("Send Your Wish List To A Loved One!");
-
 
 
 
